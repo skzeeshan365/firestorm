@@ -11,9 +11,9 @@
                 "-g",
                 "-I${workspaceFolder}/Workspace/headers",
                 "-o",
-                "helloworld",
-                "${workspaceFolder}/Workspace/codes/helloworld.c",
-                "${workspaceFolder}/Workspace/codes/other.c"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}/Addition.c",
+                "${fileDirname}/Add1.c"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
