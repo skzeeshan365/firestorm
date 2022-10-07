@@ -13,16 +13,13 @@
                 "-o",
                 "helloworld",
                 "${workspaceFolder}/Workspace/codes/helloworld.c",
-                "${workspaceFolder}/Workspace/codes/other.c",
-
-                // "${workspaceFolder}/Projects/project name/codes/helloworld.c",
-                // "${workspaceFolder}/Projects/project name/codes/other.c",
+                "${workspaceFolder}/Workspace/codes/other.c"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
             "group": {
-                "kind": "test",
+                "kind": "build",
                 "isDefault": true
             },
             "problemMatcher": []
