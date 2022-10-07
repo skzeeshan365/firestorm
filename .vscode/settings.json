@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "Customer Biling System.C": "cpp",
+        "CustomerBilingSystem.C": "cpp"
+    },
+    "terminal.integrated.profiles.windows": {
+        "bash": {
+            "path": "C:\\cygwin64\\bin\\bash.exe"
+        }
+    }
+}
