@@ -9,20 +9,23 @@
             "command": "gcc",
             "args": [
                 "-g",
-                "-I${workspaceFolder}/headers",
+                "-I${workspaceFolder}/Workspace/headers",
                 "-o",
                 "helloworld",
-                "${workspaceFolder}/codes/helloworld.c",
-                "${workspaceFolder}/codes/other.c"
+                "${workspaceFolder}/Workspace/codes/helloworld.c",
+                "${workspaceFolder}/Workspace/codes/other.c",
+
+                // "${workspaceFolder}/Projects/project name/codes/helloworld.c",
+                // "${workspaceFolder}/Projects/project name/codes/other.c",
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-
             "group": {
-                "kind": "build",
+                "kind": "test",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
