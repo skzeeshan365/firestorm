@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <malloc.h>
+/* #include <stdio.h>
+#include <malloc.h> */
 
 /* typedef struct
 {
@@ -33,7 +33,7 @@
     return 0;
 } */
 
-int main()
+/* int main()
 {
     #include <complex.h>
     #ifdef __STDC_NO_COMPLEX__
@@ -61,4 +61,14 @@ int main()
     double complex conjugate_CY = conj(cy);
     printf("Conjugate CX: %.1f%+.1f\nConjugate CY: %.1f%+.1f\n", creal(conjugate_CX), cimag(conjugate_CX), creal(conjugate_CY), cimag(conjugate_CY));
 #endif
+} */
+
+#include <stdio.h>
+
+int main()
+{
+    int a[100] = {1, 2, 3, [3 ... 9] = 10};
+
+    printf("%d ", a[3]);
 }
+

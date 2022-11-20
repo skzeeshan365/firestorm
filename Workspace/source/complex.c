@@ -8,8 +8,8 @@ int main()
     #else
     printf("Complex arithmetic supported\n");
 
-    double complex cx = 1.2 + 3.0 * I;
-    double complex cy = 1.0 - 4.0 * I;
+    double complex cx = 2 - 3.0 * I;
+    double complex cy = 4 + 6.0 * I;
     double complex sum;
 
     sum = cx + cy;
