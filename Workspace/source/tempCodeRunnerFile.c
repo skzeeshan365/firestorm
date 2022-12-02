@@ -64,11 +64,17 @@
 } */
 
 #include <stdio.h>
+#include "binarysystem.h"
 
 int main()
 {
-    int a[100] = {1, 2, 3, [3 ... 9] = 10};
+    /* int a[100] = {1, 2, 3, [3 ... 9] = 10};
 
-    printf("%d ", a[3]);
+    printf("%d ", a[3]); */
+    unsigned int a = 10;
+    printf("%lld\n", decToBinary(a));
+    a = ~a;
+    printf("%d\n", a);
+    printf("%lld", binaryToDecimal(a));
 }
 

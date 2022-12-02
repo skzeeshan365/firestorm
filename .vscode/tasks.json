@@ -10,8 +10,8 @@
                 "-I${workspaceFolder}/Workspace/headers",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "${fileDirname}/Addition.c",
-                "${fileDirname}/Add1.c"
+                "${fileDirname}/${fileBasename}",
+                "${fileDirname}/binarysystem.c"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
