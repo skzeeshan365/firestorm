@@ -17,6 +17,6 @@ int main()
 
     printf("%lld\n", decToBinary(a)); //1010
 
-    a = ~a;
+    a = ~a; //It will complement all the bits from 1-8 bits (including 0s before 1010) i.e 00001010 = 11110101 = -11
     printf("%d\n", a); //prints -11
 }

@@ -71,10 +71,11 @@ int main()
     /* int a[100] = {1, 2, 3, [3 ... 9] = 10};
 
     printf("%d ", a[3]); */
-    unsigned int a = 10;
+    unsigned int a;
+    scanf("%d", (printf("Enter a decimal no: "), &a));
+
     printf("%lld\n", decToBinary(a));
     a = ~a;
     printf("%d\n", a);
-    printf("%lld", binaryToDecimal(a));
 }
 
