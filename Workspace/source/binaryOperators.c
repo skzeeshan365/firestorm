@@ -1,3 +1,5 @@
+/*** PROBLEM SOLVED, reference bin/singed numbers.txt***/
+
 /* As we know in 1s complement of binary numbers
 we invert all the bits e.g 1010 = 0101
 but here I have an int value 10 which in binary is 1010
@@ -11,7 +13,7 @@ but its giving -11
 
 int main()
 {
-    unsigned int a = 10;
+    unsigned int a = 5;
 
     printf("%lld\n", decToBinary(a)); //1010
 
